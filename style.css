@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 220px;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    height: 280px;
+    width: auto;
+    object-fit: fill;
+}
+
+.card-title{
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
