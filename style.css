@@ -5,20 +5,22 @@
 }
 
 .card{
-    width: 220px;
-    max-height: 400px;
     margin-bottom: 20px;
 }
 
 .card-img-top{
-    height: 280px;
+    aspect-ratio: 1/1.5;
     width: auto;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .card-title{
-    font-size: 14px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+
+.booksAdded-img{
+    width: 80px;
+    height: 120px;
 }
